@@ -49,15 +49,15 @@ This is shown be the fact that none of the dot products of the triangles sides a
 \subsection*{1)}
 \paragraph{Specification:}
 Find the mistake in the following equations:
- \def\AB{\begin{pmatrix}
-       15 \\
-       8 \\
-    \end{pmatrix}}
+\def\AB{\begin{pmatrix}
+    15 \\
+    8 \\
+\end{pmatrix}}
 
 \def\BC{\begin{pmatrix}
-       -12 \\
-       5 \\
-    \end{pmatrix}}
+    -12 \\
+    5 \\
+\end{pmatrix}}
 
 \def\cosval{-0.633...}
 \def\cosang{129.31}
@@ -140,14 +140,14 @@ $\phi$ which is enclosed by $\vec{AB}$ and $\vec{AC}$, and the area $A_{rea}$ of
 \end{pmatrix}}
 
 \def\ABnorm{\begin{pmatrix}
-       -8 \\ 
-        6
-    \end{pmatrix}}
+    -8 \\ 
+    6
+\end{pmatrix}}
 
 \def\ABnrommag{\sqrt{(-8)^2 + 6^2}}
 
 \def\ABmidzero{\begin{pmatrix}
-   -0.8 \\ 
+    -0.8 \\ 
     0.6
 \end{pmatrix}}
 
@@ -175,9 +175,98 @@ $\phi$ which is enclosed by $\vec{AB}$ and $\vec{AC}$, and the area $A_{rea}$ of
     \vec{c_{n0}} &= \ABmidzero \\[20pt]
     \vec{OC} &= \ABmid + \height\ABmidzero \\
     \vec{OC} &= \begin{pmatrix}
-       -7 \\ 
+        -7 \\ 
         9
     \end{pmatrix}
+\end{align*}
+
+\section*{8.33}
+
+\def\pAX{120}
+\def\pAY{10}
+\def\pBOneX{150}
+\def\pBOneY{140}
+\def\pBTwoX{500}
+\def\pBTwoY{250}
+\def\pA{$pA(\pAX|\pAY)$}
+\def\pBOne{$pB_1(\pBOneX|\pBOneY)$}
+\def\pBTwo{$pB_2(\pBTwoX|\pBTwoY)$}
+
+\def\vA{\begin{pmatrix}
+    \pAX \\  
+    \pAY 
+\end{pmatrix}}
+\def\vBOne{\begin{pmatrix}
+    \pBOneX \\  
+    \pBOneY 
+\end{pmatrix}}
+\def\vBTwo{\begin{pmatrix}
+    \pBTwoX \\  
+    \pBTwoY 
+\end{pmatrix}}
+
+\subsection*{1)}
+
+\def\vABX{\pgfmathparse{\pBOneX - \pAX}\pgfmathresult}
+\def\vABY{\pgfmathparse{\pBOneY - \pAY}\pgfmathresult}
+\def\vAB{\begin{pmatrix}
+    \vABX \\ 
+    \vABY 
+\end{pmatrix}}
+
+\def\vI{\begin{pmatrix}
+    1 \\
+    0
+\end{pmatrix}}
+
+\paragraph{Specification:}
+Given are the points \pA, \pBOne, and \pBTwo. Calculate the angle $\beta$ that encloses the 
+horizontal and the vector $\vec{pApB_1}$.
+
+\paragraph{Definitions:} 
+Let $\vec{i}$ be the horizontal enclosing $\beta$.
+
+\paragraph{Exercise:} 
+\begin{align*}
+    \vec{AB} &= \vBOne - \vA \\
+    \vec{AB} &= \vAB \\[20pt]
+    \cos(\beta) &= \frac{\vec{AB} \cdot \vec{i}}{|\vec{AB}| * |\vec{i}|} \\
+    \beta &= \arccos(\frac{\vec{AB} \cdot \vec{i}}{|\vec{AB}| * |\vec{i}|}) \\
+    \beta &= \arccos(\frac{\vAB \cdot \vI}{\sqrt{\vABX^2 + \vABY^2}}) \\
+    \beta &= \arccos(\frac{30}{133.416640641}) \\
+    \beta &= 77.0053832081^\circ
+\end{align*}
+
+\paragraph{Answer:} 
+The angle $\beta$ that is enclosed by the horizontal and the vector $\vec{AB}$ has a value
+of 77.0053832081$^\circ$.
+
+\subsection*{2)}
+
+\paragraph{Specification:}
+Calculate the angle between the vectors $\vec{B_1A}$ and $\vec{B_1B_2}$.
+
+\def\vBOneAX{\pgfmathparse{\pAX - \pBOneX}\pgfmathresult}
+\def\vBOneAY{\pgfmathparse{\pAY - \pBOneY}\pgfmathresult}
+\def\vBOneA{\begin{pmatrix}
+    \vBOneAX \\ 
+    \vBOneAY 
+\end{pmatrix}}
+
+\def\vBOneBTwoX{\pgfmathparse{\pBTwoX - \pBOneX}\pgfmathresult}
+\def\vBOneBTwoY{\pgfmathparse{\pBTwoY - \pBOneY}\pgfmathresult}
+\def\vBOneBTwo{\begin{pmatrix}
+    \vBOneBTwoX \\ 
+    \vBOneBTwoY
+\end{pmatrix}}
+
+\paragraph{Exercise:} 
+\begin{align*}
+    \vec{B_1A} &= \vA - \vBOne \\
+    \vec{B_1A} &= \vBOneA  \\[20pt]
+    \vec{B_1B_2} &= \pgfmathparse{1 - 2} \pgfmathresult \\
+    \vec{B_1B_2} &= \vBOneBTwo \\[20pt]
+    \cos(\alpha) &= \frac{\vec{B_1A} \cdot \vec{B_1B_2}}{|\vec{B_1A}| * |\vec{B_1B_2}|}
 \end{align*}
 
 \end{document}
