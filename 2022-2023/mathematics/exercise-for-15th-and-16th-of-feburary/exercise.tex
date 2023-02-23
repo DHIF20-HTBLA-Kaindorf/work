@@ -219,6 +219,11 @@ $\phi$ which is enclosed by $\vec{AB}$ and $\vec{AC}$, and the area $A_{rea}$ of
     0
 \end{pmatrix}}
 
+\def\vH{\begin{pmatrix}
+   121 \\
+   10
+\end{pmatrix}}
+
 \paragraph{Specification:}
 Given are the points \pA, \pBOne, and \pBTwo. Calculate the angle $\beta$ that encloses the 
 horizontal and the vector $\vec{pApB_1}$.
@@ -230,16 +235,19 @@ Let $\vec{i}$ be the horizontal enclosing $\beta$.
 \begin{align*}
     \vec{AB} &= \vBOne - \vA \\
     \vec{AB} &= \vAB \\[20pt]
-    \cos(\beta) &= \frac{\vec{AB} \cdot \vec{i}}{|\vec{AB}| * |\vec{i}|} \\
-    \beta &= \arccos(\frac{\vec{AB} \cdot \vec{i}}{|\vec{AB}| * |\vec{i}|}) \\
-    \beta &= \arccos(\frac{\vAB \cdot \vI}{\sqrt{\vABX^2 + \vABY^2}}) \\
-    \beta &= \arccos(\frac{30}{133.416640641}) \\
-    \beta &= 77.0053832081^\circ
+    \vec{H} &= \vec{A} + \vec{i} \\
+    \vec{H} &= \vA  + \vI \\
+    \vec{H} &= \vH \\
+    \cos(\beta) &= \frac{\vec{AB} \cdot \vec{H}}{|\vec{AB}| * |\vec{H}|} \\
+    \beta &= \arccos(\frac{\vec{AB} \cdot \vec{H}}{|\vec{AB}| * |\vec{H}|}) \\
+    \beta &= \arccos(\frac{\vAB \cdot \vH}{\sqrt{\vABX^2 + \vABY^2} * \sqrt{121^2+ 10^2}}) \\
+    \beta &= \arccos(\frac{30 * 121 + 130 * 10}{133.416640641 * 121.412519947}) \\
+    \beta &= 72.2809315108^\circ
 \end{align*}
 
 \paragraph{Answer:} 
 The angle $\beta$ that is enclosed by the horizontal and the vector $\vec{AB}$ has a value
-of 77.0053832081$^\circ$.
+of 72.2809315108$^\circ$.
 
 \subsection*{2)}
 
