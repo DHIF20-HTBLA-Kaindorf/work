@@ -21,6 +21,11 @@ $\phi$ which is enclosed by $\vec{AB}$ and $\vec{AC}$, and the area $A_{rea}$ of
     8
 \end{pmatrix}}
 
+\def\vAC{\begin{pmatrix}
+    -5 \\ 
+    10
+\end{pmatrix}}
+
 \def\ABhalf{\begin{pmatrix}
     3 \\ 
     4
@@ -43,6 +48,11 @@ $\phi$ which is enclosed by $\vec{AB}$ and $\vec{AC}$, and the area $A_{rea}$ of
     0.6
 \end{pmatrix}}
 
+\def\vOC{\begin{pmatrix}
+        -7 \\ 
+        9
+\end{pmatrix}}
+
 \paragraph{Definitions:}
 \begin{align}
     h &= \height E \\
@@ -53,8 +63,9 @@ $\phi$ which is enclosed by $\vec{AB}$ and $\vec{AC}$, and the area $A_{rea}$ of
 \end{align}
 
 \paragraph{Exercise:}
+\subparagraph{Point $C$:}
 \begin{align}
-    \vec{c} &= \vec{B} - \vec{A} \\
+    \vec{c} &= \vec{OB} - \vec{OA} \\
     \vec{c} &= \B - \A \\
     \vec{c} &= \AB \\[20pt]
     \vec{c_m} &= \A + \frac{1}{2}\AB \\
@@ -66,8 +77,31 @@ $\phi$ which is enclosed by $\vec{AB}$ and $\vec{AC}$, and the area $A_{rea}$ of
     \vec{c_{n0}} &= \frac{1}{10}\ABnorm \\
     \vec{c_{n0}} &= \ABmidzero \\[20pt]
     \vec{OC} &= \ABmid + \height\ABmidzero \\
-    \vec{OC} &= \begin{pmatrix}
-        -7 \\ 
-        9
-    \end{pmatrix}
+    \vec{OC} &= \vOC
 \end{align}
+
+\subparagraph{Angle $\phi$:}
+\begin{align}
+    \vec{AC} &= \vec{OC} - \vec{OA} \\
+    \vec{AC} &= \vOC - \A \\
+    \vec{AC} &= \vAC \\[20pt]
+    \cos(\phi) &= \frac{\vec{AB} \cdot \vec{AC}}{|\vec{AB}| * |\vec{AC}|} \\
+    \cos(\phi) &= \frac{\AB \cdot \vAC}{\sqrt{6^2 + 8^2} * \sqrt{(-5)^2 + 10^2}} \\
+    \cos(\phi) &= \frac{50}{111.803398875} \\
+    \phi &= \arccos(0.4472135955) \\
+    \phi &= 63.43495^\circ
+\end{align}
+
+\subparagraph{Area:}
+\begin{align}
+    A &= \frac{1}{2}ch_c \\
+    A &= 5c \\[20pt]
+    c &= |\vec{c}| \\
+    c &= \sqrt{6^2 + 8^2} \\
+    c &= 10 \\[20pt]
+    A &= 50E^2
+\end{align}
+
+\paragraph{Answer:}
+The point $C$ is at the location $(-7|9)$, the angle between $\vec{AB}$ and $\vec{AC}$ is 
+$63.43495^\circ$, and the area of the triangle is 50$E^2$. 

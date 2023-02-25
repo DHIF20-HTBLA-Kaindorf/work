@@ -11,19 +11,32 @@
 \contentsline {section}{\numberline {3}8.31}{8}{}%
 \contentsline {paragraph}{Specification:}{8}{}%
 \contentsline {paragraph}{Definitions:}{8}{}%
-\contentsline {paragraph}{Exercise:}{9}{}%
-\contentsline {section}{\numberline {4}8.33}{10}{}%
-\contentsline {subsection}{\numberline {4.1}1)}{10}{}%
-\contentsline {paragraph}{Specification:}{10}{}%
-\contentsline {paragraph}{Definitions:}{10}{}%
-\contentsline {paragraph}{Exercise:}{10}{}%
+\contentsline {paragraph}{Exercise:}{8}{}%
+\contentsline {subparagraph}{Point $C$:}{9}{}%
+\contentsline {subparagraph}{Angle $\phi $:}{10}{}%
+\contentsline {subparagraph}{Area:}{10}{}%
 \contentsline {paragraph}{Answer:}{10}{}%
-\contentsline {subsection}{\numberline {4.2}2)}{10}{}%
-\contentsline {paragraph}{Specification:}{10}{}%
+\contentsline {section}{\numberline {4}8.33}{11}{}%
+\contentsline {subsection}{\numberline {4.1}1)}{11}{}%
+\contentsline {paragraph}{Specification:}{11}{}%
+\contentsline {paragraph}{Definitions:}{11}{}%
 \contentsline {paragraph}{Exercise:}{11}{}%
 \contentsline {paragraph}{Answer:}{11}{}%
-\contentsline {section}{\numberline {5}8.37}{12}{}%
-\contentsline {section}{\numberline {6}8.38}{13}{}%
-\contentsline {subsection}{\numberline {6.1}a)}{13}{}%
-\contentsline {section}{\numberline {7}8.39}{14}{}%
-\contentsline {subsection}{\numberline {7.1}b)}{14}{}%
+\contentsline {subsection}{\numberline {4.2}2)}{11}{}%
+\contentsline {paragraph}{Specification:}{11}{}%
+\contentsline {paragraph}{Exercise:}{12}{}%
+\contentsline {paragraph}{TODO:}{12}{}%
+\contentsline {paragraph}{Answer:}{12}{}%
+\contentsline {section}{\numberline {5}8.37}{13}{}%
+\contentsline {section}{\numberline {6}8.38}{14}{}%
+\contentsline {subsection}{\numberline {6.1}a)}{14}{}%
+\contentsline {paragraph}{Specification:}{14}{}%
+\contentsline {paragraph}{Definitions:}{14}{}%
+\contentsline {paragraph}{Exercises:}{15}{}%
+\contentsline {paragraph}{Answer:}{15}{}%
+\contentsline {section}{\numberline {7}8.39}{16}{}%
+\contentsline {subsection}{\numberline {7.1}b)}{16}{}%
+\contentsline {paragraph}{Specification:}{16}{}%
+\contentsline {paragraph}{Definitions:}{16}{}%
+\contentsline {paragraph}{Exercise:}{16}{}%
+\contentsline {paragraph}{Answer:}{16}{}%
