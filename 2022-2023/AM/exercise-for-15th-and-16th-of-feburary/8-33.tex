@@ -1,35 +1,23 @@
 \section{8.33}
 
-\def\pAX{120}
-\def\pAY{10}
-\def\pBOneX{150}
-\def\pBOneY{140}
-\def\pBTwoX{500}
-\def\pBTwoY{250}
-\def\pA{$pA(\pAX|\pAY)$}
-\def\pBOne{$pB_1(\pBOneX|\pBOneY)$}
-\def\pBTwo{$pB_2(\pBTwoX|\pBTwoY)$}
-
 \def\vA{\begin{pmatrix}
-    \pAX \\  
-    \pAY 
+    120 \\  
+    10 
 \end{pmatrix}}
 \def\vBOne{\begin{pmatrix}
-    \pBOneX \\  
-    \pBOneY 
+    150 \\  
+    140 
 \end{pmatrix}}
 \def\vBTwo{\begin{pmatrix}
-    \pBTwoX \\  
-    \pBTwoY 
+    500 \\  
+    250 
 \end{pmatrix}}
 
 \subsection{1)}
 
-\def\vABX{\pgfmathparse{\pBOneX - \pAX}\pgfmathresult}
-\def\vABY{\pgfmathparse{\pBOneY - \pAY}\pgfmathresult}
 \def\vAB{\begin{pmatrix}
-    \vABX \\ 
-    \vABY 
+    30 \\
+    130
 \end{pmatrix}}
 
 \def\vI{\begin{pmatrix}
@@ -43,7 +31,7 @@
 \end{pmatrix}}
 
 \paragraph{Specification:}
-Given are the points \pA, \pBOne, and \pBTwo. Calculate the angle $\beta$ that encloses the 
+Given are the points $pA(120|10)$, $pB_1(150|140)$, and $pB_2(500|250)$. Calculate the angle $\beta$ that encloses the 
 horizontal and the vector $\vec{pApB_1}$.
 
 \paragraph{Definitions:} 
@@ -58,7 +46,7 @@ Let $\vec{i}$ be the horizontal enclosing $\beta$.
     \vec{H} &= \vH \\
     \cos(\beta) &= \frac{\vec{AB} \cdot \vec{H}}{|\vec{AB}| * |\vec{H}|} \\
     \beta &= \arccos(\frac{\vec{AB} \cdot \vec{H}}{|\vec{AB}| * |\vec{H}|}) \\
-    \beta &= \arccos(\frac{\vAB \cdot \vH}{\sqrt{\vABX^2 + \vABY^2} * \sqrt{121^2+ 10^2}}) \\
+    \beta &= \arccos(\frac{\vAB \cdot \vH}{\sqrt{30^2 + 130^2} * \sqrt{121^2+ 10^2}}) \\
     \beta &= \arccos(\frac{30 * 121 + 130 * 10}{133.416640641 * 121.412519947}) \\
     \beta &= 72.2809315108^\circ
 \end{align}
@@ -72,18 +60,14 @@ of 72.2809315108$^\circ$.
 \paragraph{Specification:}
 Calculate the angle between the vectors $\vec{B_1A}$ and $\vec{B_1B_2}$.
 
-\def\vBOneAX{\pgfmathparse{\pAX - \pBOneX}\pgfmathresult}
-\def\vBOneAY{\pgfmathparse{\pAY - \pBOneY}\pgfmathresult}
 \def\vBOneA{\begin{pmatrix}
-    \vBOneAX \\ 
-    \vBOneAY 
+    -30 \\ 
+    110 
 \end{pmatrix}}
 
-\def\vBOneBTwoX{\pgfmathparse{\pBTwoX - \pBOneX}\pgfmathresult}
-\def\vBOneBTwoY{\pgfmathparse{\pBTwoY - \pBOneY}\pgfmathresult}
 \def\vBOneBTwo{\begin{pmatrix}
-    \vBOneBTwoX \\ 
-    \vBOneBTwoY
+    350 \\ 
+    110
 \end{pmatrix}}
 
 \paragraph{Exercise:} 
@@ -92,5 +76,11 @@ Calculate the angle between the vectors $\vec{B_1A}$ and $\vec{B_1B_2}$.
     \vec{B_1A} &= \vBOneA  \\[20pt]
     \vec{B_1B_2} &= \pgfmathparse{1 - 2} \pgfmathresult \\
     \vec{B_1B_2} &= \vBOneBTwo \\[20pt]
-    \cos(\alpha) &= \frac{\vec{B_1A} \cdot \vec{B_1B_2}}{|\vec{B_1A}| * |\vec{B_1B_2}|}
+    \cos(\alpha) &= \frac{\vec{B_1A} \cdot \vec{B_1B_2}}{|\vec{B_1A}| * |\vec{B_1B_2}|} \\
+    \alpha &= \arccos(\frac{\vBOneA \cdot \vBOneBTwo}{|\vBOneA| * |\vBOneBTwo|}) \\
+    \alpha &= \arccos(\frac{1600}{41830.6108012}) \\
+    \alpha &= 87.80793028^\circ 
 \end{align}
+
+\paragraph{Answer:}
+The angle between the vectors $\vec{B_1A}$ and $\vec{B_1B_2}$ is 87.80793028$^\circ$.

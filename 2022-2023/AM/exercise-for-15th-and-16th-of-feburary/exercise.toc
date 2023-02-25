@@ -21,3 +21,9 @@
 \contentsline {subsection}{\numberline {4.2}2)}{10}{}%
 \contentsline {paragraph}{Specification:}{10}{}%
 \contentsline {paragraph}{Exercise:}{11}{}%
+\contentsline {paragraph}{Answer:}{11}{}%
+\contentsline {section}{\numberline {5}8.37}{12}{}%
+\contentsline {section}{\numberline {6}8.38}{13}{}%
+\contentsline {subsection}{\numberline {6.1}a)}{13}{}%
+\contentsline {section}{\numberline {7}8.39}{14}{}%
+\contentsline {subsection}{\numberline {7.1}b)}{14}{}%
