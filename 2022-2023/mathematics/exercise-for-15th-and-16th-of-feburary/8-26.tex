@@ -1,0 +1,38 @@
+\section{8.26}
+\subsection{b)}
+\paragraph{Specification:}
+Check if these points form a right angled triangle:
+\begin{align*}
+    A(-1|-2) &&
+    B(1|-3) &&
+    C(4|2) \\[20pt]
+\end{align*}
+
+\includegraphics[width=\linewidth]{images/8-26-b.png}
+
+\paragraph{Definitions:}
+\begin{align*}
+    \vec{a} &= \vec{BC} \\
+    \vec{b} &= \vec{CA} \\
+    \vec{c} &= \vec{AB} \\
+\end{align*}
+
+\paragraph{Exercises:}
+\begin{align}
+    \vec{a} \cdot \vec{b} &= a_x * b_x + a_y * b_y \\
+    \vec{a} \cdot \vec{b} &= -1 * 1 + -2 * -3 \\
+    \vec{a} \cdot \vec{b} &= -1 + 6 \\
+    \vec{a} \cdot \vec{b} &= 5 \\[20pt]
+    \vec{a} \cdot \vec{c} &= a_x * c_x + a_y * c_y \\
+    \vec{a} \cdot \vec{c} &= -1 * 4 + -2 * 2 \\
+    \vec{a} \cdot \vec{c} &= -4 + -4 \\
+    \vec{a} \cdot \vec{c} &= -8 \\[20pt]
+    \vec{a} \cdot \vec{c} &= b_x * c_x + b_y * c_y \\
+    \vec{a} \cdot \vec{c} &= 1 * 4 + -3 * 2 \\
+    \vec{a} \cdot \vec{c} &= 4 + -6 \\
+    \vec{a} \cdot \vec{c} &= -2
+\end{align}
+
+\paragraph{Answer:}
+The triangle is not a right angle as none of the angles $\alpha$, $\beta$, $\gamma$ are $90^\circ$.
+This is shown be the fact that none of the dot products of the triangles sides are 0.
