@@ -1,89 +1,85 @@
 \section{8.33}
-
-\def\vA{\begin{pmatrix}
-    120 \\  
-    10 
-\end{pmatrix}}
-\def\vBOne{\begin{pmatrix}
-    150 \\  
-    140 
-\end{pmatrix}}
-\def\vBTwo{\begin{pmatrix}
-    500 \\  
-    250 
-\end{pmatrix}}
+\paragraph{Specification:}
+In a rowing competition on a lake, two buoys at positions $B_1(150|140)$ and $B_2(500|250)$ 
+must be passed. Then the team has to return to the starting point. A rowing team starts at 
+point $A(120|10)$. \\
+Note: Units in meters
 
 \subsection{1)}
+\paragraph{Requirements}
+Calculate the minimum angle to the horizontal at which the team should approach the first 
+buoy $B_1$. 
 
-\def\vAB{\begin{pmatrix}
-    30 \\
+
+\def\va{\begin{pmatrix}
+    30 \\ 
     130
 \end{pmatrix}}
-
-\def\vI{\begin{pmatrix}
-    1 \\
-    0
-\end{pmatrix}}
-
-\def\vH{\begin{pmatrix}
-   121 \\
-   10
-\end{pmatrix}}
-
-\paragraph{Specification:}
-Given are the points $pA(120|10)$, $pB_1(150|140)$, and $pB_2(500|250)$. Calculate the angle $\beta$ that encloses the 
-horizontal and the vector $\vec{pApB_1}$.
-
-\paragraph{Definitions:} 
-Let $\vec{i}$ be the horizontal enclosing $\beta$.
-
-\paragraph{Exercise:} 
-\begin{align}
-    \vec{AB} &= \vBOne - \vA \\
-    \vec{AB} &= \vAB \\[20pt]
-    \vec{H} &= \vec{A} + \vec{i} \\
-    \vec{H} &= \vA  + \vI \\
-    \vec{H} &= \vH \\
-    \cos(\beta) &= \frac{\vec{AB} \cdot \vec{H}}{|\vec{AB}| * |\vec{H}|} \\
-    \beta &= \arccos(\frac{\vec{AB} \cdot \vec{H}}{|\vec{AB}| * |\vec{H}|}) \\
-    \beta &= \arccos(\frac{\vAB \cdot \vH}{\sqrt{30^2 + 130^2} * \sqrt{121^2+ 10^2}}) \\
-    \beta &= \arccos(\frac{30 * 121 + 130 * 10}{133.416640641 * 121.412519947}) \\
-    \beta &= 72.2809315108^\circ
-\end{align}
-
-\paragraph{Answer:} 
-The angle $\beta$ that is enclosed by the horizontal and the vector $\vec{AB}$ has a value
-of 72.2809315108$^\circ$.
-
-\subsection{2)}
-
-\paragraph{Specification:}
-Calculate the angle between the vectors $\vec{B_1A}$ and $\vec{B_1B_2}$.
-
-\def\vBOneA{\begin{pmatrix}
-    -30 \\ 
-    110 
-\end{pmatrix}}
-
-\def\vBOneBTwo{\begin{pmatrix}
+\def\vb{\begin{pmatrix}
     350 \\ 
     110
 \end{pmatrix}}
 
-\paragraph{Exercise:} 
+\paragraph{Definitions:}
 \begin{align}
-    \vec{B_1A} &= \vA - \vBOne \\
-    \vec{B_1A} &= \vBOneA  \\[20pt]
-    \vec{B_1B_2} &= \pgfmathparse{1 - 2} \pgfmathresult \\
-    \vec{B_1B_2} &= \vBOneBTwo \\[20pt]
-    \cos(\alpha) &= \frac{\vec{B_1A} \cdot \vec{B_1B_2}}{|\vec{B_1A}| * |\vec{B_1B_2}|} \\
-    \alpha &= \arccos(\frac{\vBOneA \cdot \vBOneBTwo}{|\vBOneA| * |\vBOneBTwo|}) \\
-    \alpha &= \arccos(\frac{1600}{41830.6108012}) \\
-    \alpha &= 87.80793028^\circ 
+    \vec{a} &= \vec{AB_1}
 \end{align}
 
-\paragraph{TODO:}
-Area, correction
+\paragraph{Exercises:}
+\begin{align}
+    \cos(\alpha) &= \frac{\vec{i} \cdot \vec{a}}{|\vec{i}| * |\vec{a}|}  \\
+    \cos(\alpha) &= \frac{\begin{pmatrix}
+       1 \\ 
+       0
+    \end{pmatrix} 
+    \cdot \va}{\sqrt{30^2 + 130^2}}  \\
+    \cos(\alpha) &= \frac{30}{133.416640641} \\
+    \alpha &= \arccos(0.224859506699) \\
+    \alpha &= 77.00538^\circ
+\end{align}
 
 \paragraph{Answer:}
-The angle between the vectors $\vec{B_1A}$ and $\vec{B_1B_2}$ is 87.80793028$^\circ$.
+The minimum angle that the team has to approach the buoy at is  77.00538$^\circ$.
+
+\subsection{2)}
+\paragraph{Requirements}
+Determine the angle between $\vec{B_1A}$ and $\vec{B_1B_2}$.
+
+\paragraph{Definitions:}
+\begin{align}
+    \vec{a} &= \vec{AB_1} \\
+    \vec{b} &= \vec{B_1B_2}
+\end{align}
+
+\paragraph{Exercise:}
+\begin{align}
+    \cos(\beta) &= \frac{\vec{a} \cdot -\vec{b}}{|\vec{a}| * |\vec{b}|} \\
+    \cos(\beta) &= \frac{\va \cdot -\vb}{\sqrt{30^2 + 130^2} * \sqrt{350^2 + 110^2}} \\
+    \cos(\beta) &= \frac{-24800}{48947.72722} \\
+    \beta &= \arccos(-0.506662952675) \\
+    \beta &= 120.4418^\circ
+\end{align}
+
+\paragraph{Answer:}
+The angle between $\vec{B_1A}$ and $\vec{B_1B_2}$ is 120.4418$^\circ$.
+
+\subsection{3)}
+\paragraph{Requirements}
+Calculate the water area enclosed by the course $AB_1B_2$.
+
+\paragraph{Definitions:}
+\begin{align}
+    \vec{a} &= \vec{AB_1} \\
+    \vec{b} &= \vec{B_1B_2}
+\end{align}
+
+\paragraph{Exercises:}
+\begin{align}
+   A &= \frac{1}{2}|a_xb_y-a_yb_x| \\ 
+   A &= \frac{1}{2}|30*110-130*350| \\ 
+   A &= \frac{1}{2}|-42200| \\ 
+   A &= 21100
+\end{align}
+
+\paragraph{Answer:}
+The water area enclosed by the course $AB_1B_2$ is 21100$m^2$.
