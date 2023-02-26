@@ -1,42 +1,53 @@
-\contentsline {section}{\numberline {1}8.26}{3}{}%
+\contentsline {section}{\numberline {1}8.23}{3}{}%
 \contentsline {subsection}{\numberline {1.1}b)}{3}{}%
-\contentsline {paragraph}{Specification:}{3}{}%
+\contentsline {paragraph}{Requirement:}{3}{}%
 \contentsline {paragraph}{Definitions:}{3}{}%
 \contentsline {paragraph}{Exercises:}{4}{}%
-\contentsline {paragraph}{Answer:}{4}{}%
-\contentsline {section}{\numberline {2}8.29}{5}{}%
-\contentsline {subsection}{\numberline {2.1}1)}{5}{}%
-\contentsline {paragraph}{Specification:}{5}{}%
+\contentsline {section}{\numberline {2}8.26}{6}{}%
+\contentsline {subsection}{\numberline {2.1}b)}{6}{}%
+\contentsline {paragraph}{Specification:}{6}{}%
+\contentsline {paragraph}{Definitions:}{6}{}%
+\contentsline {paragraph}{Exercises:}{7}{}%
 \contentsline {paragraph}{Answer:}{7}{}%
-\contentsline {section}{\numberline {3}8.31}{8}{}%
+\contentsline {section}{\numberline {3}8.29}{8}{}%
+\contentsline {subsection}{\numberline {3.1}1)}{8}{}%
 \contentsline {paragraph}{Specification:}{8}{}%
-\contentsline {paragraph}{Definitions:}{8}{}%
-\contentsline {paragraph}{Exercise:}{8}{}%
-\contentsline {subparagraph}{Point $C$:}{9}{}%
-\contentsline {subparagraph}{Angle $\phi $:}{10}{}%
-\contentsline {subparagraph}{Area:}{10}{}%
 \contentsline {paragraph}{Answer:}{10}{}%
-\contentsline {section}{\numberline {4}8.33}{11}{}%
-\contentsline {subsection}{\numberline {4.1}1)}{11}{}%
+\contentsline {section}{\numberline {4}8.31}{11}{}%
 \contentsline {paragraph}{Specification:}{11}{}%
 \contentsline {paragraph}{Definitions:}{11}{}%
 \contentsline {paragraph}{Exercise:}{11}{}%
-\contentsline {paragraph}{Answer:}{11}{}%
-\contentsline {subsection}{\numberline {4.2}2)}{11}{}%
-\contentsline {paragraph}{Specification:}{11}{}%
-\contentsline {paragraph}{Exercise:}{12}{}%
-\contentsline {paragraph}{TODO:}{12}{}%
-\contentsline {paragraph}{Answer:}{12}{}%
-\contentsline {section}{\numberline {5}8.37}{13}{}%
-\contentsline {section}{\numberline {6}8.38}{14}{}%
-\contentsline {subsection}{\numberline {6.1}a)}{14}{}%
+\contentsline {subparagraph}{Point $C$:}{12}{}%
+\contentsline {subparagraph}{Angle $\phi $:}{13}{}%
+\contentsline {subparagraph}{Area:}{13}{}%
+\contentsline {paragraph}{Answer:}{13}{}%
+\contentsline {section}{\numberline {5}8.33}{14}{}%
+\contentsline {subsection}{\numberline {5.1}1)}{14}{}%
 \contentsline {paragraph}{Specification:}{14}{}%
 \contentsline {paragraph}{Definitions:}{14}{}%
-\contentsline {paragraph}{Exercises:}{15}{}%
+\contentsline {paragraph}{Exercise:}{14}{}%
+\contentsline {paragraph}{Answer:}{14}{}%
+\contentsline {subsection}{\numberline {5.2}2)}{14}{}%
+\contentsline {paragraph}{Specification:}{14}{}%
+\contentsline {paragraph}{Exercise:}{15}{}%
+\contentsline {paragraph}{TODO:}{15}{}%
 \contentsline {paragraph}{Answer:}{15}{}%
-\contentsline {section}{\numberline {7}8.39}{16}{}%
-\contentsline {subsection}{\numberline {7.1}b)}{16}{}%
-\contentsline {paragraph}{Specification:}{16}{}%
-\contentsline {paragraph}{Definitions:}{16}{}%
-\contentsline {paragraph}{Exercise:}{16}{}%
+\contentsline {section}{\numberline {6}8.37}{16}{}%
+\contentsline {paragraph}{Specification}{16}{}%
+\contentsline {subsection}{\numberline {6.1}1)}{16}{}%
+\contentsline {paragraph}{Requirements:}{16}{}%
 \contentsline {paragraph}{Answer:}{16}{}%
+\contentsline {subsection}{\numberline {6.2}2)}{17}{}%
+\contentsline {paragraph}{Requirements:}{17}{}%
+\contentsline {section}{\numberline {7}8.38}{18}{}%
+\contentsline {subsection}{\numberline {7.1}a)}{18}{}%
+\contentsline {paragraph}{Specification:}{18}{}%
+\contentsline {paragraph}{Definitions:}{18}{}%
+\contentsline {paragraph}{Exercises:}{19}{}%
+\contentsline {paragraph}{Answer:}{19}{}%
+\contentsline {section}{\numberline {8}8.39}{20}{}%
+\contentsline {subsection}{\numberline {8.1}b)}{20}{}%
+\contentsline {paragraph}{Specification:}{20}{}%
+\contentsline {paragraph}{Definitions:}{20}{}%
+\contentsline {paragraph}{Exercise:}{20}{}%
+\contentsline {paragraph}{Answer:}{20}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.7)  25 FEB 2023 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2023.2.7)  26 FEB 2023 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,8 +326,8 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box63
-) (./exercise.aux (./8-26.aux) (./8-29.aux) (./8-31.aux) (./8-33.aux) (./8-37.a
-ux) (./8-38.aux) (./8-39.aux))
+) (./exercise.aux (./8-23.aux) (./8-26.aux) (./8-29.aux) (./8-31.aux) (./8-33.a
+ux) (./8-37.aux) (./8-38.aux) (./8-39.aux))
 \openout1 = `exercise.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -371,10 +371,26 @@ e
 \openout4 = `exercise.toc'.
 
 [2]
+\openout2 = `8-23.aux'.
+
+(./8-23.tex
+<images/8-23.png, id=17, 739.96587pt x 445.2128pt>
+File: images/8-23.png Graphic file (type png)
+<use images/8-23.png>
+Package pdftex.def Info: images/8-23.png  used on input line 8.
+(pdftex.def)             Requested size: 345.0pt x 207.57886pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 8--9
+[][] 
+ []
+
+[3
+
+ <./images/8-23.png>] [4]) [5]
 \openout2 = `8-26.aux'.
 
 (./8-26.tex
-<images/8-26-b.png, id=17, 739.96587pt x 445.2128pt>
+<images/8-26-b.png, id=34, 739.96587pt x 445.2128pt>
 File: images/8-26-b.png Graphic file (type png)
 <use images/8-26-b.png>
 Package pdftex.def Info: images/8-26-b.png  used on input line 11.
@@ -384,13 +400,15 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 11--12
 [][] 
  []
 
-[3
+[6
 
- <./images/8-26-b.png>]) [4]
+
+
+ <./images/8-26-b.png>]) [7]
 \openout2 = `8-29.aux'.
 
 (./8-29.tex
-<images/8-29-1.png, id=30, 739.96587pt x 445.2128pt>
+<images/8-29-1.png, id=44, 739.96587pt x 445.2128pt>
 File: images/8-29-1.png Graphic file (type png)
 <use images/8-29-1.png>
 Package pdftex.def Info: images/8-29-1.png  used on input line 22.
@@ -400,18 +418,18 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 22--23
 [][] 
  []
 
-[5
+[8
 
 
 
- <./images/8-29-1.png>] [6]) [7]
+ <./images/8-29-1.png>] [9]) [10]
 \openout2 = `8-31.aux'.
 
-(./8-31.tex [8
+(./8-31.tex [11
 
 
 
-] [9]) [10]
+] [12]) [13]
 \openout2 = `8-33.aux'.
 
 (./8-33.tex
@@ -423,22 +441,43 @@ OML/cmm/m/it/10 pB[]\OT1/cmr/m/n/10 (150\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 140)$
 10 250)$.
  []
 
-[11
+[14
 
 
 
-]) [12]
+]) [15]
 \openout2 = `8-37.aux'.
 
-(./8-37.tex) [13
+(./8-37.tex
+<images/8-37-1.png, id=71, 194.79784pt x 117.20337pt>
+File: images/8-37-1.png Graphic file (type png)
+<use images/8-37-1.png>
+Package pdftex.def Info: images/8-37-1.png  used on input line 7.
+(pdftex.def)             Requested size: 345.0pt x 207.59123pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 7--8
+[][] 
+ []
+
+<images/8-37-2.png, id=72, 302.38493pt x 181.93494pt>
+File: images/8-37-2.png Graphic file (type png)
+<use images/8-37-2.png>
+Package pdftex.def Info: images/8-37-2.png  used on input line 28.
+(pdftex.def)             Requested size: 345.0pt x 207.58008pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 28--29
+[][] 
+ []
+
+[16
 
 
 
-]
+ <./images/8-37-1.png>]) [17 <./images/8-37-2.png>]
 \openout2 = `8-38.aux'.
 
 (./8-38.tex
-<images/8-38.png, id=63, 1495.24138pt x 899.6369pt>
+<images/8-38.png, id=81, 1495.24138pt x 899.6369pt>
 File: images/8-38.png Graphic file (type png)
 <use images/8-38.png>
 Package pdftex.def Info: images/8-38.png  used on input line 8.
@@ -448,41 +487,41 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 8--9
 [][] 
  []
 
-[14
+[18
 
 
 
- <./images/8-38.png>]) [15]
+ <./images/8-38.png>]) [19]
 \openout2 = `8-39.aux'.
 
-(./8-39.tex) [16
+(./8-39.tex) [20
 
 
 
-] (./exercise.aux (./8-26.aux) (./8-29.aux) (./8-31.aux) (./8-33.aux) (./8-37.a
-ux) (./8-38.aux) (./8-39.aux)) ) 
+] (./exercise.aux (./8-23.aux) (./8-26.aux) (./8-29.aux) (./8-31.aux) (./8-33.a
+ux) (./8-37.aux) (./8-38.aux) (./8-39.aux)) ) 
 Here is how much of TeX's memory you used:
- 12726 strings out of 478238
- 259888 string characters out of 5850457
- 539685 words of memory out of 5000000
- 30714 multiletter control sequences out of 15000+600000
+ 12777 strings out of 478238
+ 260926 string characters out of 5850457
+ 539946 words of memory out of 5000000
+ 30756 multiletter control sequences out of 15000+600000
  474642 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,15n,104p,410b,198s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb>
-Output written on exercise.pdf (16 pages, 1968008 bytes).
+</usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on exercise.pdf (20 pages, 3454850 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 74 compressed objects within 1 object stream
+ 140 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
