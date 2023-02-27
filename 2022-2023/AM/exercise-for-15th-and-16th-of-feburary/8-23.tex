@@ -7,13 +7,6 @@ $K(0|-3), L(3|5), M(-9|1)$
 
 \includegraphics[width=\linewidth]{images/8-23.png}
 
-\paragraph{Definitions:}
-\begin{align}
-   \vec{a} &= \vec{KL} \\ 
-   \vec{b} &= \vec{LM} \\ 
-   \vec{c} &= \vec{MK}
-\end{align}
-
 \def\va{\begin{pmatrix}
    3 \\ 
    8
@@ -29,7 +22,7 @@ $K(0|-3), L(3|5), M(-9|1)$
 
 \paragraph{Exercises:}
 \begin{align}
-   \vec{a} &= \begin{pmatrix}
+   \vec{KL} &= \begin{pmatrix}
        3 \\ 
        5
    \end{pmatrix} - 
@@ -37,8 +30,8 @@ $K(0|-3), L(3|5), M(-9|1)$
        0 \\ 
        -3
    \end{pmatrix} \\
-   \vec{a} &= \va \\[20pt]
-   \vec{b} &= \begin{pmatrix}
+   \vec{KL} &= \va \\[20pt]
+   \vec{LM} &= \begin{pmatrix}
        -9 \\ 
        1
    \end{pmatrix} - 
@@ -46,8 +39,8 @@ $K(0|-3), L(3|5), M(-9|1)$
        3 \\ 
        5
    \end{pmatrix} \\
-   \vec{b} &= \vb \\[20pt]
-   \vec{c} &= \begin{pmatrix}
+   \vec{LM} &= \vb \\[20pt]
+   \vec{MK} &= \begin{pmatrix}
        0 \\ 
        -3
    \end{pmatrix} - 
@@ -55,17 +48,17 @@ $K(0|-3), L(3|5), M(-9|1)$
        -9 \\ 
        1
    \end{pmatrix} \\
-   \vec{c} &= \vc
+   \vec{MK} &= \vc
 \end{align}
 
 \begin{align}
-   \cos(\alpha) &= \frac{\vec{b} \cdot -\vec{c}}{|\vec{b}| * |\vec{c}|} \\
-   \cos(\alpha) &= \frac{\vb \cdot -\vc}{\sqrt{12^2 + 4^2} * \sqrt{9^2 + 4^2}} \\
+    \cos(\alpha) &= \frac{\vec{LM} \cdot (-\vec{MK})}{|\vec{LM}| * |\vec{MK}|} \\
+   \cos(\alpha) &= \frac{\vb \cdot (-\vc)}{\sqrt{12^2 + 4^2} * \sqrt{9^2 + 4^2}} \\
    \cos(\alpha) &= \frac{92}{124.579292019} \\
    \alpha &= \arccos(0.738485493929) \\
    \alpha &= 42.39744^\circ \\[20pt]
-   \cos(\beta) &= \frac{\vec{a} \cdot -\vec{c}}{|\vec{a}| * |\vec{c}|} \\
-   \cos(\beta) &= \frac{\va \cdot -\vc}{\sqrt{3^2 + 8^2} * \sqrt{9^2 + 4^2}} \\
+   \cos(\beta) &= \frac{\vec{KL} \cdot (-\vec{MK})}{|\vec{KL}| * |\vec{MK}|} \\
+   \cos(\beta) &= \frac{\va \cdot (-\vc)}{\sqrt{3^2 + 8^2} * \sqrt{9^2 + 4^2}} \\
    \cos(\beta) &= \frac{5}{84.1486779456} \\
    \beta &= \arccos(0.0594186399842) \\
    \beta &= 86.59356^\circ \\[20pt]

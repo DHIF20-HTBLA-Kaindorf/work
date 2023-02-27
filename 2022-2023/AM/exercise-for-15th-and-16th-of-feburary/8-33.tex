@@ -20,14 +20,9 @@ buoy $B_1$.
     110
 \end{pmatrix}}
 
-\paragraph{Definitions:}
-\begin{align}
-    \vec{a} &= \vec{AB_1}
-\end{align}
-
 \paragraph{Exercises:}
 \begin{align}
-    \cos(\alpha) &= \frac{\vec{i} \cdot \vec{a}}{|\vec{i}| * |\vec{a}|}  \\
+    \cos(\alpha) &= \frac{\vec{i} \cdot \vec{AB_1}}{|\vec{i}| * |\vec{AB_1}|}  \\
     \cos(\alpha) &= \frac{\begin{pmatrix}
        1 \\ 
        0
@@ -45,16 +40,10 @@ The minimum angle that the team has to approach the buoy at is  77.00538$^\circ$
 \paragraph{Requirements}
 Determine the angle between $\vec{B_1A}$ and $\vec{B_1B_2}$.
 
-\paragraph{Definitions:}
-\begin{align}
-    \vec{a} &= \vec{AB_1} \\
-    \vec{b} &= \vec{B_1B_2}
-\end{align}
-
 \paragraph{Exercise:}
 \begin{align}
-    \cos(\beta) &= \frac{\vec{a} \cdot -\vec{b}}{|\vec{a}| * |\vec{b}|} \\
-    \cos(\beta) &= \frac{\va \cdot -\vb}{\sqrt{30^2 + 130^2} * \sqrt{350^2 + 110^2}} \\
+    \cos(\beta) &= \frac{\vec{AB_1} \cdot (-\vec{B_1B_2})}{|\vec{AB_1}| * |\vec{B_1B_2}|} \\
+    \cos(\beta) &= \frac{\va \cdot (-\vb)}{\sqrt{30^2 + 130^2} * \sqrt{350^2 + 110^2}} \\
     \cos(\beta) &= \frac{-24800}{48947.72722} \\
     \beta &= \arccos(-0.506662952675) \\
     \beta &= 120.4418^\circ
@@ -67,15 +56,9 @@ The angle between $\vec{B_1A}$ and $\vec{B_1B_2}$ is 120.4418$^\circ$.
 \paragraph{Requirements}
 Calculate the water area enclosed by the course $AB_1B_2$.
 
-\paragraph{Definitions:}
-\begin{align}
-    \vec{a} &= \vec{AB_1} \\
-    \vec{b} &= \vec{B_1B_2}
-\end{align}
-
 \paragraph{Exercises:}
 \begin{align}
-   A &= \frac{1}{2}|a_xb_y-a_yb_x| \\ 
+    A &= \frac12|( AB_1 )_x( B_1B_2 )_y - ( AB_1 )_y( B_1B_2 )_x| \\ 
    A &= \frac{1}{2}|30*110-130*350| \\ 
    A &= \frac{1}{2}|-42200| \\ 
    A &= 21100

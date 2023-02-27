@@ -1,62 +1,57 @@
 \contentsline {section}{\numberline {1}8.23}{3}{}%
 \contentsline {subsection}{\numberline {1.1}b)}{3}{}%
 \contentsline {paragraph}{Requirement:}{3}{}%
-\contentsline {paragraph}{Definitions:}{3}{}%
-\contentsline {paragraph}{Exercises:}{4}{}%
-\contentsline {section}{\numberline {2}8.26}{6}{}%
-\contentsline {subsection}{\numberline {2.1}b)}{6}{}%
-\contentsline {paragraph}{Requirements:}{6}{}%
-\contentsline {paragraph}{Definitions:}{6}{}%
-\contentsline {paragraph}{Exercises:}{7}{}%
-\contentsline {paragraph}{Answer:}{7}{}%
-\contentsline {section}{\numberline {3}8.29}{8}{}%
-\contentsline {subsection}{\numberline {3.1}1)}{8}{}%
-\contentsline {paragraph}{Requirements:}{8}{}%
-\contentsline {paragraph}{Answer:}{10}{}%
-\contentsline {section}{\numberline {4}8.31}{11}{}%
-\contentsline {paragraph}{Specification:}{11}{}%
-\contentsline {paragraph}{Requirements:}{11}{}%
-\contentsline {paragraph}{Definitions:}{11}{}%
-\contentsline {paragraph}{Exercise:}{11}{}%
-\contentsline {subparagraph}{Point $C$:}{12}{}%
-\contentsline {subparagraph}{Angle $\phi $:}{13}{}%
-\contentsline {subparagraph}{Area:}{13}{}%
+\contentsline {paragraph}{Exercises:}{3}{}%
+\contentsline {section}{\numberline {2}8.26}{5}{}%
+\contentsline {subsection}{\numberline {2.1}b)}{5}{}%
+\contentsline {paragraph}{Requirements:}{5}{}%
+\contentsline {paragraph}{Exercises:}{6}{}%
+\contentsline {paragraph}{Answer:}{6}{}%
+\contentsline {section}{\numberline {3}8.29}{7}{}%
+\contentsline {subsection}{\numberline {3.1}1)}{7}{}%
+\contentsline {paragraph}{Requirements:}{7}{}%
+\contentsline {paragraph}{Answer:}{9}{}%
+\contentsline {section}{\numberline {4}8.31}{10}{}%
+\contentsline {paragraph}{Specification:}{10}{}%
+\contentsline {paragraph}{Requirements:}{10}{}%
+\contentsline {paragraph}{Definitions:}{10}{}%
+\contentsline {paragraph}{Exercise:}{10}{}%
+\contentsline {subparagraph}{Point $C$:}{11}{}%
+\contentsline {subparagraph}{Angle $\phi $:}{12}{}%
+\contentsline {subparagraph}{Area:}{12}{}%
+\contentsline {paragraph}{Answer:}{12}{}%
+\contentsline {section}{\numberline {5}8.33}{13}{}%
+\contentsline {paragraph}{Specification:}{13}{}%
+\contentsline {subsection}{\numberline {5.1}1)}{13}{}%
+\contentsline {paragraph}{Requirements}{13}{}%
+\contentsline {paragraph}{Exercises:}{13}{}%
 \contentsline {paragraph}{Answer:}{13}{}%
-\contentsline {section}{\numberline {5}8.33}{14}{}%
-\contentsline {paragraph}{Specification:}{14}{}%
-\contentsline {subsection}{\numberline {5.1}1)}{14}{}%
+\contentsline {subsection}{\numberline {5.2}2)}{13}{}%
+\contentsline {paragraph}{Requirements}{13}{}%
+\contentsline {paragraph}{Exercise:}{13}{}%
+\contentsline {paragraph}{Answer:}{13}{}%
+\contentsline {subsection}{\numberline {5.3}3)}{14}{}%
 \contentsline {paragraph}{Requirements}{14}{}%
-\contentsline {paragraph}{Definitions:}{14}{}%
 \contentsline {paragraph}{Exercises:}{14}{}%
 \contentsline {paragraph}{Answer:}{14}{}%
-\contentsline {subsection}{\numberline {5.2}2)}{14}{}%
-\contentsline {paragraph}{Requirements}{14}{}%
-\contentsline {paragraph}{Definitions:}{14}{}%
-\contentsline {paragraph}{Exercise:}{15}{}%
+\contentsline {section}{\numberline {6}8.37}{15}{}%
+\contentsline {paragraph}{Specification}{15}{}%
+\contentsline {subsection}{\numberline {6.1}1)}{15}{}%
+\contentsline {paragraph}{Requirements:}{15}{}%
 \contentsline {paragraph}{Answer:}{15}{}%
-\contentsline {subsection}{\numberline {5.3}3)}{15}{}%
-\contentsline {paragraph}{Requirements}{15}{}%
-\contentsline {paragraph}{Definitions:}{15}{}%
-\contentsline {paragraph}{Exercises:}{15}{}%
-\contentsline {paragraph}{Answer:}{15}{}%
-\contentsline {section}{\numberline {6}8.37}{16}{}%
-\contentsline {paragraph}{Specification}{16}{}%
-\contentsline {subsection}{\numberline {6.1}1)}{16}{}%
+\contentsline {subsection}{\numberline {6.2}2)}{16}{}%
 \contentsline {paragraph}{Requirements:}{16}{}%
-\contentsline {paragraph}{Answer:}{16}{}%
-\contentsline {subsection}{\numberline {6.2}2)}{17}{}%
+\contentsline {section}{\numberline {7}8.38}{17}{}%
+\contentsline {subsection}{\numberline {7.1}a)}{17}{}%
+\contentsline {paragraph}{Specification:}{17}{}%
 \contentsline {paragraph}{Requirements:}{17}{}%
-\contentsline {section}{\numberline {7}8.38}{18}{}%
-\contentsline {subsection}{\numberline {7.1}a)}{18}{}%
-\contentsline {paragraph}{Specification:}{18}{}%
-\contentsline {paragraph}{Requirements:}{18}{}%
-\contentsline {paragraph}{Definitions:}{18}{}%
-\contentsline {paragraph}{Exercises:}{19}{}%
+\contentsline {paragraph}{Definitions:}{17}{}%
+\contentsline {paragraph}{Exercises:}{18}{}%
+\contentsline {paragraph}{Answer:}{18}{}%
+\contentsline {section}{\numberline {8}8.39}{19}{}%
+\contentsline {subsection}{\numberline {8.1}b)}{19}{}%
+\contentsline {paragraph}{Specification:}{19}{}%
+\contentsline {paragraph}{Requirements:}{19}{}%
+\contentsline {paragraph}{Definitions:}{19}{}%
+\contentsline {paragraph}{Exercise:}{19}{}%
 \contentsline {paragraph}{Answer:}{19}{}%
-\contentsline {section}{\numberline {8}8.39}{20}{}%
-\contentsline {subsection}{\numberline {8.1}b)}{20}{}%
-\contentsline {paragraph}{Specification:}{20}{}%
-\contentsline {paragraph}{Requirements:}{20}{}%
-\contentsline {paragraph}{Definitions:}{20}{}%
-\contentsline {paragraph}{Exercise:}{20}{}%
-\contentsline {paragraph}{Answer:}{20}{}%
