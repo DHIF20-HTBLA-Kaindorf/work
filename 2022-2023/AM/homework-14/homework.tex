@@ -1,0 +1,230 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+\section{8.48}
+\paragraph{Specification:}
+ADD IMAGE
+
+\paragraph{Requirements:}
+Which statements about the graphic are true, and which are false?
+
+\subsection{2)}
+
+\begin{equation}
+    \vec{EH} = \vec{DA}
+\end{equation}
+
+\paragraph{Answer:}
+The vectors are not the same because their orientation is different.
+
+\subsection{4)}
+
+\begin{equation}
+    \vec{AC} = \vec{EG}
+\end{equation}
+
+\paragraph{Answer:}
+The vectors are the same because they have the same orientation, magnitude, and direction.
+
+\subsection{6)}
+
+\begin{equation}
+    \vec{BC} = \vec{FG}
+\end{equation}
+
+\paragraph{Answer:}
+The vectors are the same because they have the same orientation, magnitude, and direction.
+
+\pagebreak
+
+\section{8.50}
+
+\subsection{c)}
+
+\paragraph{Specification:}
+\begin{equation}
+    A(15|-4|12);B(2|8|11);k=2;s=34
+\end{equation}
+
+\subsubsection{1)}
+
+\paragraph{Requirements:}
+Calculate the vector $\vec{AB}$ and determine its length.
+
+\paragraph{Exercise:}
+
+\begin{align}
+    \vec{AB} &= \vec{OB} - \vec{OA} \\ 
+    \vec{AB} &= \begin{pmatrix}
+        2 \\ 
+        8 \\ 
+        11
+    \end{pmatrix} - 
+    \begin{pmatrix}
+        15 \\ 
+        -4 \\
+        12
+    \end{pmatrix} \\
+    \vec{AB} &= \begin{pmatrix}
+        -13 \\ 
+        12 \\
+        -1
+    \end{pmatrix} \\
+    |\vec{AB}| &= \sqrt{(-13)^2 + 12^2 + (-1)^2} \\
+    |\vec{AB}| &= 17.7200451467 
+\end{align}
+
+\paragraph{Answer:}
+The vector be has the direction $\begin{pmatrix}
+        -13 \\ 
+        12 \\
+        -1
+    \end{pmatrix}$ and the length $17.7200451467$.
+
+\subsubsection{2)}
+
+\paragraph{Requirements:}
+Multiply the vector by the factor $k$.
+
+\paragraph{Exercise:}
+
+\begin{align}
+    k\vec{AB} &= 2 * \begin{pmatrix}
+        -13 \\ 
+        12 \\
+        -1
+    \end{pmatrix} \\
+    k\vec{AB} &= \begin{pmatrix}
+        -26 \\ 
+        24 \\ 
+        -2
+    \end{pmatrix}
+\end{align}
+
+\paragraph{Answer:}
+Multiplying the vector $\vec{AB}$ by the factor $k$ gives the vector $\begin{pmatrix}
+        -26 \\ 
+        24 \\ 
+        -2
+    \end{pmatrix}$.
+
+\subsubsection{3)}
+
+\paragraph{Requirements:}
+Calculate that vector which has the same direction as $\vec{AB}$, but is $s$ units long.
+
+\paragraph{Exercise:}
+
+\begin{align}
+    \vec{AB_s} &= \frac{s}{|\vec{AB}|}\vec{AB} \\
+    \vec{AB_s} &= \frac{34}{17.7200451467} * \begin{pmatrix}
+        -13 \\ 
+        12 \\
+        -1
+    \end{pmatrix} \\
+    \vec{AB_s} &= \begin{pmatrix}
+        -24.9435030408 \\
+        23.0247720377 \\
+        -1.91873100314
+    \end{pmatrix}
+\end{align}
+
+\paragraph{Answer:}
+The vector $\vec{AB_s}$ has the value $\begin{pmatrix}
+        -24.9435030408 \\
+        23.0247720377 \\
+        -1.91873100314
+    \end{pmatrix}$.
+
+\pagebreak
+
+\section{8.51}
+
+\paragraph{Specification:}
+
+\begin{equation}
+    \vec{a} = \begin{pmatrix}
+        11 \\
+        -5 \\ 
+        -7
+    \end{pmatrix},
+    \vec{b} = \begin{pmatrix}
+        27 \\
+        -5 \\
+        45
+    \end{pmatrix}
+\end{equation}
+
+\subsection{b)}
+
+\paragraph{Requirements:}
+Calculate the angle between vectors $\vec{a}$ and $\vec{b}$.
+
+\paragraph{Exercise:}
+
+\begin{align}
+    \cos(\alpha) &= \frac{\vec{a} \cdot \vec{b}}{|\vec{a}| * |\vec{b}|} \\
+    \alpha &= \arccos(\frac{7}{736.141970003}) \\
+    \alpha &= 89.45516^\circ 
+\end{align}
+
+\paragraph{Answer:}
+The angle between $\vec{a}$ and $\vec{b}$ is $89.45516^\circ$.
+
+\pagebreak
+
+\section{8.57}
+
+\paragraph{Specification:}
+
+\begin{equation}
+    A(11|3|-10), B(-4|5|-4), C(-1|14|5)
+\end{equation}
+
+ADD IMAGE
+
+\subsection{a)}
+
+\paragraph{Requirements:}
+Calculate the missing coordinates of the parallelogram $ABCD$.
+
+\begin{align}
+    \vec{AD} &= \vec{BC} \\
+    \vec{BC} &= \begin{pmatrix}
+        -1 \\
+        14\\ 
+        5    
+    \end{pmatrix} -    
+    \begin{pmatrix}
+        -4 \\ 
+         5 \\ 
+        -4
+    \end{pmatrix} \\
+    \vec{BC} &= \begin{pmatrix}
+        3 \\ 
+        9 \\ 
+        9
+    \end{pmatrix} \\
+    \vec{OD} &= \vec{OA} + \vec{BC} \\
+    \vec{OD} &= \begin{pmatrix}
+        11 \\ 
+        3 \\ 
+        -10
+    \end{pmatrix} + 
+    \begin{pmatrix}
+        3 \\ 
+        9 \\ 
+        9
+    \end{pmatrix} \\
+    \vec{OD} &= \begin{pmatrix}
+        14 \\ 
+        12 \\
+        -1
+    \end{pmatrix}
+\end{align}
+
+\paragraph{Answer:}
+The point $D$ has the coordinates $(14|12|-1)$.
+
+\end{document}
