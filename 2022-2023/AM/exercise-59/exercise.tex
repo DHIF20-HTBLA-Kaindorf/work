@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\newcommand{\vectorTwo}[2]{\begin{pmatrix}
+    #1 \\ 
+    #2
+\end{pmatrix}}
+
+\begin{document}
+
+\section{1}
+\subsection{1}
+
+\paragraph{Specification:}
+Given is $g: \vectorTwo{x}{y} = \vectorTwo{-1}{-4} + \lambda \vectorTwo{-2}{5}$
+
+\paragraph{Requirements:}
+Notate $g$ in the normal vector form.
+
+\paragraph{Exercise:}
+\begin{align}
+    \vec{n} \cdot \vec{OX} &= \vec{n} \cdot \vec{OP} \\ 
+    \vec{n} \cdot \vectorTwo{x}{y} &= \vec{n} \cdot \vec{-1}{-4} \\
+    \vectorTwo{-5}{-2} \cdot \vectorTwo{x}{y} &= \vectorTwo{-5}{-2} \cdot \vectorTwo{-1}{-4} \\
+    -5x - 2y &= 13
+\end{align}
+
+\subsection{2}
+
+\paragraph{Specification:}
+Given is $h: -5x + 2y = -12$.
+
+\paragraph{Requirements:}
+Notate $h$ in the normal vector form and the parameter notation.
+
+\paragraph{Exercise:}
+
+\begin{align}
+    \vec{n} &= \vectorTwo{-5}{2} \\
+    \vec{OP} &= \vectorTwo{0}{\frac{-12}{2}} \\
+    \vectorTwo{-5}{2} \cdot \vectorTwo{x}{y} &= \vectorTwo{-5}{2} \cdot \vectorTwo{0}{-6} \\[10pt]
+    \vectorTwo{x}{y} &= \vectorTwo{0}{-6} + \lambda * \vectorTwo{1}{\frac{5}{2}} \\
+\end{align}
+
+\pagebreak
+
+\section{2}
+
+\paragraph{Specification:}
+Given is a triangle $ABC: A(-7|1), B(8|4), C(5,7)$
+
+\paragraph{Requirements:}\mbox{}\\
+1. Calculate the "side symmetries" of a and b in the parameter notation. \mbox{}\\
+2. Calculate the gravity line $S_a$ in the normal vector form and $S_c$ in the parameter notation. \mbox{}\\
+3. Calculate angle symmetry line of $\beta$ in the normal form. \mbox{}\\
+
+\paragraph{Exercise:}
+
+\subsection{1}
+
+\begin{align}
+    \vec{OX} &= \vec{OP} + \lambda * \vec{d} \\
+    \vec{OP} &= \vec{OA} + \frac{1}{2} * \vec{AB} \\
+    \vec{BA} &= \vectorTwo{8}{4} - \vectorTwo{-7}{1} \\
+    \vec{BA} &= \vectorTwo{15}{3} \\
+    \vec{OP} &= \vectorTwo{-7}{1} + \vectorTwo{\frac{15}{2}}{\frac{3}{2}} \\
+    \vec{OP} &= \vectorTwo{0.5}{2.5} \\
+    \vec{d} &= \vec{BA}_n \\
+    \vec{BA}_n &= \vec{-3}{15} \\
+    \vec{OX} &= \vectorTwo{0.5}{2.5} + \lambda * \vectorTwo{-3}{15} \\
+\end{align}
+
+\subsection{2}
+
+\end{document}

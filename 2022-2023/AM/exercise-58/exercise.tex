@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage{amsmath}
+\newcommand{\vectorTwo}[2]{\begin{pmatrix}
+    #1 \\ 
+    #2
+\end{pmatrix}}
+
+\begin{document}
+
+\section{1}
+
+\subsection{1}
+
+\paragraph{Requirement:}
+
+Create the parameter notation of the line with the points $A(-2|5)$ and $B(3|-1)$.
+
+\paragraph{Exercise:}
+
+General Form: $\vec{OX} = \vec{OP} + \lambda * \vec{r}$
+
+\begin{align}
+    \vec{AB} &= 1 \vec{B} - \vec{A} \\
+    \vec{AB} &= \begin{pmatrix}
+        5 \\ 
+        -6
+    \end{pmatrix} \\[10pt]
+    \vec{OX} &= \vectorTwo{3}{-1} + \lambda * \vectorTwo{-2.5}{3}
+\end{align}
+
+\subsection{2}
+
+\paragraph{Requirements:}
+
+Calculate the normal form of $\vectorTwo{x}{y} = \vectorTwo{3}{-1} + \lambda * \vectorTwo{-2.5}{3}$
+
+\paragraph{Exercise:}
+
+\begin{align}
+    k &= \frac{-6}{5} \\[20pt]
+    y &= \frac{-6}{5} * x + d \\
+    -1 &= \frac{-18}{5} * 3 + d \\
+    d &= \frac{13}{5}
+\end{align}
+
+\subsection{3}
+
+\paragraph{Requirement:}
+$h(x) = 3x - 4$ should be converted to the parameter notation.
+
+\begin{align}
+    \vectorTwo{x}{y} &= \vectorTwo{0}{-4} + s * \vectorTwo{1}{k}
+\end{align}
+
+\end{document}
